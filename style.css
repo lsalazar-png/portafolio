@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(193, 141, 214);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* contenedor de página */
+.contenedor {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+ padding: 30px;
+}
+
+/* tarjeta de presentación */
+.tarjeta{
+    background-color: rgb(235, 224, 248);
+    width: 280px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+img{
+    width: 180px;
+    align-self: center;
+    border-radius: 76px;
+}
+
+h1{
+    font-size: 20px;
+    text-align: justify;
+    color:blue;
+}
+
+p{
+    font-size: 17px;
+    text-aligh:justify;
+    color:black;
+    line-height: 1.5;
+}
+
+a {
+color:rgb(71, 18, 69);
+text-align: right;
+text-decoration: none;
+transition: color 0.4;
+}
+
+a:hover{
+    color:aquamarine;
+}
