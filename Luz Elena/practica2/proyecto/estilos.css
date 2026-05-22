@@ -1,0 +1,19 @@
+body {
+    background-color:#7c8ef0 ;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#4a83a7;
+    text-align: center;
+}
+
+ul{
+    color:#1e00a5;
+}
